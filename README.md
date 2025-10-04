@@ -7,7 +7,7 @@ Python3.9及以上版本（请报告兼容性问题）
 
 库：numpy，pandas，matplotlib，PIL
 
-RGB数据以Display-P3方式导出，使用sRGB显示器会导致偏色。请自行转换输出文件。
+RGB数据以Display-P3方式导出，使用sRGB显示器或不支持的设备会导致饱和度偏低和亮度偏暗，请自行转换输出文件至可正确解析的格式。
 
 白光使用D65进行校准。
 
